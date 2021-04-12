@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="FittnessApp.Styles.DarkTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!--  global  -->
+    <Color x:Key="PrimaryColor">Black</Color>
+    <Color x:Key="SecondaryColor">White</Color>
+    <Color x:Key="TertiaryColor">#434343</Color>
+    <Color x:Key="AccentColor">#b624c1</Color>
+    <Color x:Key="SecondaryAccentColor">#85dafd</Color>
+    <Color x:Key="PageBackgroundColor">#121212</Color>
+    <Color x:Key="ComponentColor">#212121</Color>
+    <Color x:Key="ImageBackgroundColor">#474747</Color>
+
+    <!--  Shell  -->
+    <Color x:Key="ShellDisabledColor">Gray</Color>
+    <Color x:Key="ShellBackgroundColor">Black</Color>
+    <Color x:Key="ShellForegroundColor">White</Color>
+    <Color x:Key="ShellTabBarBackgroundColor">Black</Color>
+    <Color x:Key="ShellTabBarDisabledColor">Gray</Color>
+    <Color x:Key="ShellTabBarForegroundColor">White</Color>
+    <Color x:Key="ShellTabBarUnselectedColor">Gray</Color>
+    <Color x:Key="ShellTitleColor">#b624c1</Color>
+    <Color x:Key="ShellUnselectedColor">Gray</Color>
+
+    <!--  Shimmer  -->
+    <Color x:Key="SkeletonColor">#434343</Color>
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Styles/Global.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

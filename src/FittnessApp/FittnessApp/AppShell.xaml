@@ -37,15 +37,48 @@
             Route="FeaturedPage"
             Shell.NavBarIsVisible="False">
             <Tab.Icon>
-                <FontImageSource FontFamily="FARegular" Glyph="{x:Static helpers:FAIcons.Abacus}" />
+                <FontImageSource FontFamily="FARegular" Glyph="{x:Static helpers:FAIcons.Star}" />
             </Tab.Icon>
-            <ShellContent Title="Featured" ContentTemplate="{DataTemplate local:FeaturedPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:FeaturedPage}" />
+        </Tab>
+        <Tab
+            Title="Challenges"
+            Route="ChallengesPage"
+            Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static helpers:FAIcons.Trophy}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:ChallengesPage}" />
+        </Tab>
+        <Tab
+            Title="Classes"
+            Route="ClassesPage"
+            Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FARegular" Glyph="{x:Static helpers:FAIcons.PlayCircle}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:ClassesPage}" />
+        </Tab>
+        <Tab
+            Title="Profile"
+            Route="ProfilePage"
+            Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FARegular" Glyph="{x:Static helpers:FAIcons.User}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+        <Tab
+            Title="More"
+            Route="MorePage"
+            Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FARegular" Glyph="{x:Static helpers:FAIcons.GripLines}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:MorePage}" />
         </Tab>
 
-        <ShellContent Title="Challenges" ContentTemplate="{DataTemplate local:ChallengesPage}" />
-        <ShellContent Title="Classes" ContentTemplate="{DataTemplate local:ClassesPage}" />
-        <ShellContent Title="Profile" ContentTemplate="{DataTemplate local:ProfilePage}" />
-        <ShellContent Title="More" ContentTemplate="{DataTemplate local:MorePage}" />
+
     </TabBar>
 
 </Shell>

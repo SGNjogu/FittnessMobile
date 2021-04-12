@@ -28,6 +28,7 @@ foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\SamuelNjogu\source\repos\FittnessMobile\src\FittnessApp\FittnessApp.Android\obj\Debug\110\lp\47\jl\res\layout\bottomtablayout.xml
 item;C:\Users\SamuelNjogu\source\repos\FittnessMobile\src\FittnessApp\FittnessApp.Android\obj\Debug\110\lp\47\jl\res\values\styles.xml
+item;obj\Debug\110\res\values\styles.xml
 LinearLayout;C:\Users\SamuelNjogu\source\repos\FittnessMobile\src\FittnessApp\FittnessApp.Android\obj\Debug\110\lp\47\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\SamuelNjogu\source\repos\FittnessMobile\src\FittnessApp\FittnessApp.Android\obj\Debug\110\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\SamuelNjogu\source\repos\FittnessMobile\src\FittnessApp\FittnessApp.Android\obj\Debug\110\lp\47\jl\res\values\attrs.xml

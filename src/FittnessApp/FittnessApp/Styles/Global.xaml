@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="FittnessApp.Styles.Global"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodels="clr-namespace:FittnessApp.ViewModels"
+    mc:Ignorable="d">
+
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="{DynamicResource PrimaryColor}" />
+        <Setter Property="BarTextColor" Value="{DynamicResource SecondaryColor}" />
+    </Style>
+
+    <Style TargetType="Page">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+    </Style>
+
+    <Style TargetType="Shell">
+        <Setter Property="FlyoutBackgroundColor" Value="{DynamicResource PageBackgroundColor}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+    </Style>
+
+    <Style TargetType="StackLayout">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+    </Style>
+
+    <Style TargetType="BoxView">
+        <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryColor}" />
+    </Style>
+
+    <Style TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+    </Style>
+
+    <Style TargetType="Frame">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="BorderColor" Value="Transparent" />
+    </Style>
+
+    <Style TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+    </Style>
+
+    <Style TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+        <Setter Property="FontFamily" Value="LatoRegular" />
+        <Style.Triggers>
+            <Trigger TargetType="Button" Property="FontAttributes" Value="Bold">
+                <Setter Property="FontFamily" Value="LatoBold" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="RefreshView">
+        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}" />
+        <Setter Property="RefreshColor" Value="{DynamicResource PrimaryColor}" />
+    </Style>
+
+    <Style TargetType="ActivityIndicator">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="Color" Value="{DynamicResource SecondaryColor}" />
+    </Style>
+
+    <Style TargetType="ProgressBar">
+        <Setter Property="ProgressColor" Value="{DynamicResource AccentColor}" />
+    </Style>
+
+    <Style TargetType="Entry">
+        <Setter Property="FontFamily" Value="LatoRegular" />
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+        <Style.Triggers>
+            <Trigger TargetType="Entry" Property="FontAttributes" Value="Bold">
+                <Setter Property="FontFamily" Value="LatoBold" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Editor">
+        <Setter Property="FontFamily" Value="LatoRegular" />
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+        <Style.Triggers>
+            <Trigger TargetType="Editor" Property="FontAttributes" Value="Bold">
+                <Setter Property="FontFamily" Value="LatoBold" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="LatoRegular" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+        <Style.Triggers>
+            <Trigger TargetType="Label" Property="FontAttributes" Value="Bold">
+                <Setter Property="FontFamily" Value="LatoBold" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="SearchBar">
+        <Setter Property="Visual" Value="Material" />
+        <Setter Property="PlaceholderColor" Value="Gray" />
+        <Setter Property="FontFamily" Value="LatoRegular" />
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+        <Setter Property="CancelButtonColor" Value="Gray" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource ComponentColor}" />
+        <Style.Triggers>
+            <Trigger TargetType="SearchBar" Property="FontAttributes" Value="Bold">
+                <Setter Property="FontFamily" Value="LatoBold" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Picker">
+        <Setter Property="TitleColor" Value="Gray" />
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource ComponentColor}" />
+        <Setter Property="FontFamily" Value="LatoRegular" />
+        <Style.Triggers>
+            <Trigger TargetType="Picker" Property="FontAttributes" Value="Bold">
+                <Setter Property="FontFamily" Value="LatoBold" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>
